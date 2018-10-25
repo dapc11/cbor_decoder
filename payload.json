@@ -1,0 +1,16 @@
+{
+    "issuer_keyring": [
+        {
+            "pid": "11",
+            "kid": "11:DMANIFEST155",
+            "kty": "EC",
+            "crv": "P-256",
+            "x": "APa7Vw9SlIgnhqaf8GDdRGHdr62OsOZKTNeTB9nKdFl2",
+            "y": "A9nrZR8IRT7pdooyKCW_TOMwaaneAP-zhZyncLmtG3U"
+        }
+    ],
+    "device_keyring": [
+    ],
+    "time": "20170503T120000Z",
+    "mtb": "omF2YTFhcINYJaRjbWl2YTNjYWxnZUVTMjU2Y2lpZAtja2lkajExOkRNVEIzMjBYn79iMTGBv2RjX3ZuYTZkY192dGExZGNfbWSEv2NwZHOBGJD_v2NmYXK_ZmFtb3VudPtARMFHrhR64WhjdXJyZW5jeWNTRUtjdmF0-0AD64UeuFHs__-_Y3J2bGdQVDFIMTVN_79jdGlkZjIxNjQ1Nf9kY190Y3gmMTE6QDIwMTgxMDI1VDA3MjM1OS9QVDFIMTVNJjExOnpvbmVbc13__1hAIFxJ15wGEuT0bcfDCu_6IA2wkKopLuiHZ6KBJx_7VUPXTtFckvJJ8A7gTn9WfauQl-nakgCjo3zjhQdAxzoJrA"
+}
