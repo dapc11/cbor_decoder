@@ -9,8 +9,11 @@ const args = process.argv;
 let mtb = base64url.toBuffer(args[2]);
 console.log("decoded base64url encoded input:\n" + printHex(mtb));
 let decoded = cbor.decodeFirst(mtb);
-console.log("p:\n" + printHex(decoded['p']));
-decoded = cbor.decode(decoded['p']);
+
+try {
+	console.log("p:\n" + printHex(decoded['p']));
+	decoded = cbor.decode(decoded['p']);
+} catch (ignored) {}
 
 let headers = cbor.decode(decoded[0]);
 let payload = cbor.decode(decoded[1]);
